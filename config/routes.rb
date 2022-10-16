@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :user_nations
   resources :nation_langauages
   resources :phrasebooks
   resources :entries

@@ -1,0 +1,2 @@
+class UserNation < ApplicationRecord
+end
