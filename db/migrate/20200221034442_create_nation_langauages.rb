@@ -1,4 +1,4 @@
-class CreateNationLangauages < ActiveRecord::Migration[6.0]
+class CreateNationLangauages < ActiveRecord::Migration[7.0]
   def change
     create_table :nation_langauages do |t|
       t.references :nation, null: false, foreign_key: true
