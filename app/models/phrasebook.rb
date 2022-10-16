@@ -1,0 +1,2 @@
+class Phrasebook < ApplicationRecord
+end

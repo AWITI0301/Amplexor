@@ -1,0 +1,2 @@
+class PhrasebooksController < ApplicationController
+end
