@@ -1,4 +1,4 @@
-class CreateUserNations < ActiveRecord::Migration[7.0]
+class CreateUserNations < ActiveRecord::Migration[6.0]
   def change
     create_table :user_nations do |t|
       t.references :user, null: false, foreign_key: true

@@ -1,4 +1,4 @@
-class CreateNations < ActiveRecord::Migration[7.0]
+class CreateNations < ActiveRecord::Migration[6.0]
   def change
     create_table :nations do |t|
       t.string :name
